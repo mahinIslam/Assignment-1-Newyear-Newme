@@ -9,18 +9,17 @@
 
 
  }
- .btn-primary{
-    color: #f7ebeb;
-    font-size: 10px;
-    font-weight: 200; 
-    border: 0;
-    padding: 18px 35px;
-    height: 65px;
-    border-radius: 5px;
-    background: #FD6E0A;
-    
-    
+ .btn-primary {
+   color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	border: 0;
+	padding: 18px 35px;
+	height: 64px;
+	border-radius: 5px;
+	background: #fd6e0a;
  }
+	
 
 
  /* banner styles */
@@ -90,16 +89,23 @@ margin-bottom: 26px;
  
  /* My plans */
 
-.skills-containers{
+.plans-containers{
    display: flex;
-   justify-content: space-between;
+   gap: 150px;
    
 }
-.skill{
-   background: #d3cbcb;
+.my-plans{
+   
    border-radius: 5px;
    padding: 30px;
 }
+.plans-title {
+   font-size: 20px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+	
 .section-title{
     font-size: 20px;
     font-weight: 700;
@@ -107,7 +113,7 @@ margin-bottom: 26px;
     margin-bottom: 20px;
     text-align: center;
 }
-.skill-description{
+.plans-description{
    color: #635f5f;
    
 }
@@ -125,7 +131,7 @@ margin-bottom: 26px;
  
  
  }
- .Contact input input [type="email"]{
+ .Contact input {
     border: 0;
     margin-bottom: 24px;
     width: 100%;
@@ -139,7 +145,7 @@ margin-bottom: 26px;
     margin-bottom: 30px;
  }
  .input{
-    height: 64px;
+    height: 100px;
    }
     
  
